@@ -26,10 +26,15 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        MainWindow.cpp
+        MainWindow.cpp \
+    StructureRepository.cpp \
+    DataStructure.cpp
 
 HEADERS += \
-        MainWindow.h
+        MainWindow.h \
+    CommSingleton.h \
+    StructureRepository.h \
+    DataStructure.h
 
 FORMS += \
         mainwindow.ui

@@ -20,7 +20,7 @@
    <string>蛛网计划</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -31,21 +31,21 @@
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
-      <widget class="QLabel" name="labelProject">
-       <property name="maximumSize">
+      <widget class="QLineEdit" name="projectName">
+       <property name="minimumSize">
         <size>
-         <width>16777215</width>
-         <height>60</height>
+         <width>0</width>
+         <height>50</height>
         </size>
        </property>
        <property name="font">
         <font>
          <family>宋体</family>
-         <pointsize>14</pointsize>
+         <pointsize>16</pointsize>
         </font>
        </property>
        <property name="text">
-        <string>未命名项目</string>
+        <string>Project Unknown</string>
        </property>
       </widget>
      </item>

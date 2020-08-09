@@ -21,9 +21,14 @@ private slots:
 
 	void on_toolButton_clicked();
 
+	void on_actionnew_project_triggered();
+
+	void on_projectName_editingFinished();
+
 private:
 	Ui::MainWindow *ui;
 	QStandardItemModel *itemModel;
+	bool projectOn;		// 是否已经开启项目
 };
 
 #endif // MAINWINDOW_H
